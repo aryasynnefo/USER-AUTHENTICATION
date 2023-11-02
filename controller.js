@@ -40,3 +40,16 @@ export async function login(req,res){
         console.log(error);
     }
 }
+
+export async function home(req,res){
+    
+    try {
+    console.log(req.user.username);
+    const user=req.user.user;
+    return res.status(200).send({msg:`hello ${user}`})
+    } catch (error) {
+        return res.status(403).send(error)
+    }
+
+    
+}

@@ -1,0 +1,33 @@
+
+  .uname ,.pwd
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+  
+  
+  button 
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn
+{
+    padding-top: 15px;
+}
+
+  .container 
+{
+    padding: 16px;
+    text-align: center;
+    padding-top: 10%;
+}
+  
+ 
+  
+  
